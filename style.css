@@ -1066,3 +1066,238 @@ header .bottom_section .rightCol img
     font-size: 20px;
   }
 }
+@media only screen and (min-width: 769px) and (max-width:1024px)
+{
+    body 
+    {
+        overflow-x: hidden;
+    }
+header
+{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+header .bottom_section
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.features
+{
+    width: 100%;
+    margin: auto;
+}
+.features .container
+{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    padding: 2em 0;
+}
+.features .container .leftCol,.features .container .rightCol
+{
+    width: 40%;
+    margin: auto;
+
+}
+.features .container .leftCol .container-img,.features .container .rightCol .container-img
+{
+    width:300px ;
+    margin: auto;
+}
+.features .container .rightCol h1, .features .container .rightCol h2
+{
+    font-size: 30px;
+    line-height: 30px;
+}
+.features #mid-container .leftCol h1, .features #mid-container .leftCol h2
+{
+    font-size: 30px;
+    line-height: 30px;
+}
+.CTA 
+   {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    border-radius: 0;
+    padding: 50px;
+   }
+   .CTA .rightCol 
+   {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+   }
+   .CTA .rightCol img
+   {
+    width: 100%;
+   }
+   .CTA .leftCol
+   {
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    margin: auto;
+    padding: 30px;
+   }
+   .CTA .leftCol h3
+   {
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+    width:80%;
+    margin: auto;
+    padding: 1em 0;
+   }
+   .CTA .leftCol .Search .search-bar
+   {
+   width: 80%;
+   margin: auto;
+   align-items: center;
+   }
+   .CTA .leftCol .Search .search-bar button img
+   {
+    width: 20px;
+   }
+   ::placeholder
+   {
+    font-size: 15px;
+    align-items: center;
+   }
+   .logoFolio 
+   {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+   }
+   .logoFolio h1, .logoFolio p
+   {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px;
+   }
+   .logoFolio img 
+   {
+    width: 100%;
+    margin: auto;
+   }
+   .ratio 
+   {
+    display: flex;
+    width: 80%;
+    margin: auto;
+   }
+   .ratio .leftCol, .ratio .rightCol
+   {
+    width: 40%;
+    margin: auto;
+   }
+   .ratio .leftCol img 
+   {
+    width: 100%;
+    margin: auto;
+   }
+   .ratio .rightCol p span, .ratio .rightCol p
+   {
+    font-size: 30px;
+    line-height: 30px;
+    padding: 0.5em 0;
+   }
+   .footer .footer-top 
+   {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: auto;
+   }
+   .footer .footer-top .leftCol
+   {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    font-size: 10px;
+   }
+   .footer .footer-top .leftCol h1
+   {
+    font-size: 30px;
+    line-height: 40px;
+   }
+  .footer .footer-top .leftCol p
+  {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+  }
+  .footer .footer-top .leftCol .btn
+  {
+    display: flex;
+    width: 100%;
+  }
+  .footer .footer-top .leftCol .btn .btn-email,.footer .footer-top .leftCol .btn .btn-demo
+  {
+    border: 0;
+    text-align: center;
+    font-size: 20px;
+    margin:10px 0;
+  }
+  .footer .footer-top .rightCol
+  {
+    width: 50%;
+    margin: auto;
+  }
+  .footer .footer-top .rightCol img 
+  {
+    width: 100%;
+    margin: auto;
+  }
+  .footer .section
+  {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+  .footer .section p 
+  {
+    width: 40%;
+    text-align: left;
+  }
+  .footer .section img 
+  {
+    padding: 0 0.1em;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width:1440px)
+{
+    .features
+{
+        width: 100%;
+        margin: auto;
+}
+    .features .container .rightCol p
+{
+    font-size: 30px;
+    padding: 0.8em 0;
+}  
+    .features #mid-container .leftCol p
+{
+        font-size: 30px;
+        padding: 0.8em 0;
+}
+.features .container .rightCol a
+{
+    font-size: 30px;
+}
+.features #mid-container .leftCol a 
+{
+    font-size: 3git0px;
+}
+}
