@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:ital,wght@0,700;1,700&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -22,7 +23,12 @@
             </ul>
         </nav>
         <a class="demo" href="#request-a-demo"> <button>Request a demo <img src="Vector 190.png" alt="Vector"></button></a>
-       </section>
+        <div class="hamburger-menu" onclick="myFunction()">
+            <div  class="bar"></div>
+            <div  class="bar"></div>
+            <div  class="bar"></div> 
+        </div>
+    </section>
        <section class="bottom_section">
             <div class="leftCol">
                 <h1>The Future Of Contracting</h1>
@@ -156,6 +162,13 @@
         <li><a href="#linkedIn">linkedIn</a></li>
     </ul>    
 </div>
+<script>
+
+    function myFunction(){
+        document.getElementsByClassName("nav_links").style.display  = "block";
+    }
+    
+</script>
 </body>
 </html>
 

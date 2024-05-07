@@ -9,6 +9,7 @@ body
     width: 100vw;
     margin: auto;
     font-family: Readex Pro; 
+    overflow-x: hidden;
 }
 /*header
 {
@@ -74,6 +75,7 @@ header .top_section nav .nav_links li a
     line-height: 25px;
     text-align: left;
 }
+
 header .top_section a button
 {
     border-radius: 32px;
@@ -85,6 +87,17 @@ header .top_section a button
     line-height: 25px;
     text-align: left;
     padding: 10px;
+}
+header .top_section .hamburger-menu
+{
+    display: none;
+}
+header .top_section .hamburger-menu .bar 
+{ 
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;  
 }
 header .bottom_section
 {
@@ -160,7 +173,6 @@ header .bottom_section .rightCol img
     width: 664.45px;
 }
 
-    
 
 /*.features .feature h1{
     font-size: 46px;
@@ -464,6 +476,7 @@ header .bottom_section .rightCol img
     font-size: 20px;
     font-weight: 600;
     line-height: 37px;
+    padding:0 0.8em
 }
 .footer-bottom
 {
@@ -510,28 +523,27 @@ header .bottom_section .rightCol img
         width: 80%;
         margin: auto;
     }
-    header .top_section
+    
+    header
     {
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        font-size: 30px;
     }
-    header .top_section .logo 
+    header .top_section
     {
-       padding: 20px 0;
+        margin-bottom: -5em;
     }
     header .top_section nav .nav_links
     {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 0px;
+        display: none;
     }
-    header .top_section nav .nav_links li 
+    header .top_section .demo 
     {
-        line-height: 1px;
+      display: none;  
     }
+    header .top_section .hamburger-menu 
+   {
+    display: block;
+   }
    header .bottom_section 
    {
     display: flex;
@@ -548,6 +560,7 @@ header .bottom_section .rightCol img
     margin: auto;
     align-items: center;
     line-height: 1em;
+    padding-top: 1em;
    }
    header .bottom_section .leftCol h1
    {
@@ -557,21 +570,24 @@ header .bottom_section .rightCol img
     font-size: 30px;
     letter-spacing: 0px;
     word-spacing: 1px;
+    width: 100%;
    }
    header .bottom_section .leftCol .motto 
    {
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-    font-size: 20px;
     line-height: 20px;
-    letter-spacing: 0px;
+    font-size: 20px;
     word-spacing: 1px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
    }
    header .bottom_section .leftCol a button
    {
     padding: 5px;
+
+    
    }
    header .bottom_section .bottom
    {
@@ -587,11 +603,13 @@ header .bottom_section .rightCol img
    {
     width: 100%;
     margin: auto;
+    padding-top: -10em;
    }
    header .bottom_section .rightCol img
    {
     width: 100%;
     margin: auto;
+    padding-top: 1em;
    }
    .features
    {
@@ -1333,4 +1351,5 @@ header .bottom_section
 {
     font-size: 30px;
 }
+
 }
