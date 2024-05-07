@@ -1277,11 +1277,22 @@ header .bottom_section
 }
 @media only screen and (min-width: 1025px) and (max-width:1440px)
 {
+    header .bottom_section .rightCol 
+    {
+        width: 50%;
+        margin: auto;
+    }
+    header .bottom_section .rightCol img
+    {
+        width:600px;
+        margin: auto;
+    }
     .features
 {
-        width: 100%;
-        margin: auto;
+       width: 100%;
+       margin: auto;
 }
+   
     .features .container .rightCol p
 {
     font-size: 30px;
@@ -1298,6 +1309,6 @@ header .bottom_section
 }
 .features #mid-container .leftCol a 
 {
-    font-size: 3git0px;
+    font-size: 30px;
 }
 }
