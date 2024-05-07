@@ -1277,10 +1277,22 @@ header .bottom_section
 }
 @media only screen and (min-width: 1025px) and (max-width:1440px)
 {
+    header .bottom_section 
+    {
+        width: 100%;
+        margin: auto;
+    }
+    header .bottom_section .leftCol
+    {
+        width: 50%;
+        margin: auto;
+    }
+
     header .bottom_section .rightCol 
     {
         width: 50%;
         margin: auto;
+        
     }
     header .bottom_section .rightCol img
     {
@@ -1292,6 +1304,16 @@ header .bottom_section
        width: 100%;
        margin: auto;
 }
+.features .container
+{
+    width: 100%;
+    margin: auto;
+    padding: 2em 0;
+}
+.features .container .rightCol .container-img,.features .container .leftCol .container-img, .features #mid-container .rightCol .container-img
+{
+    width: 500px;
+}  
    
     .features .container .rightCol p
 {
